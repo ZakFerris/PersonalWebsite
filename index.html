@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="Zak Ferris Portfolio Site" content="$1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ZF</title>
+        <link rel="stylesheet" href="css/style.css">
+        
+        <!-- FONTS -->
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,700,300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
+
+        <!-- JQUERY -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+        <script>
+       
+        $( document ).ready(function() {  
+            
+            // ARROW HOVER
+
+            $("#arrow-img").hover(function(){
+            $(".hero-link").addClass('hovered');
+            },
+
+            function(){
+            $(".hero-link").removeClass('hovered');
+            }); 
+
+            // LINK HOVER
+
+            $(".hero-link").hover(function(){
+            $("#arrow-img").addClass('hovered-bg');
+            },
+
+            function(){
+            $("#arrow-img").removeClass('hovered-bg');
+            });  
+
+        });
+
+        </script
+
+    </head>
+    
+    <body>
+        <div id='main-container'>
+            <div id="bg-container">
+                <section id="hero-container">
+                    <p id="logo-tagline">product designer</p>
+                    <p id="logo">Zak Ferris</p>
+                    <h1>&ldquo;I help companies solve problems using design and technology&rdquo;</h1>
+                    <article id="scroll-btn">
+                        <p class="hero-link">Scroll Down</p>
+                        <div id="arrow-img"></div> 
+                    </article>
+                </section> 
+            </div> 
+            
+
+           
+            
+            <!--ONE MEDICAL-->
+            <h2>Work</h2>
+            <p class="bullets">• • •</p>
+            <section id="work">  
+                    <div class="project-tile">
+                        <img class="logo-img" src="css/images/onemed-logo.svg" alt="one-med-log">
+                        <p class="caption">I'm currently the Senior Interaction Desginer at <a href="http://www.onemedical.com">One Medical</a> helping patients gain access to quatlity health care through their iOS devices.
+                        </p>
+                    </div>
+                    
+                    <div class="project-img">
+                        <img src="css/images/one-med-demo-1.gif
+                        " alt="one-med-image" style="width:100%;height:auto">
+                    </div> 
+
+            </section>
+            <!-- Live Career -->
+            <section id="work">
+                    <div class="project-tile">
+                        <img class="logo-img" src="css/images/livecareer.svg" alt="livecareer-logo">
+                        <p class="caption">I started at <a href="http://www.LiveCareer.com">Live Career</a>  to help people build their resumes online.  As my role grew, I begain managing the entire user expirence team and successfully launched <a href="http://www.jobtap.com">Jobtab</a>, <a href="http://www.resumehelp.com">Resume Gig</a>, <a href="http://www.myperfectcoverletter.com">My Perfect Cover letter</a>.
+                        </p>
+
+                    </div>
+                    
+                    <div class="project-img">
+                        <img src="css/images/lc-main-imgb.png" alt="livecareer-image" style="width:100%;height:auto">
+                    </div>
+                </section>    
+
+            <!-- Synata -->
+            <section id="work">
+                    <div class="project-tile">
+                        <img class="logo-img" src="css/images/synata.svg" alt="synata-logo">
+                        <p class="caption">I joined <a href="http://www.synata.com">Synata</a> to help enterprise companies, search their cloud software.  I designed the intial mobile app and website, to help synata win the <a href="http://events.launch.co/festival/">Launch Confrence</a> best B2B application award.  Synata was then invited into the <a href="http://www.hf.cx">Hackers/Founders incubator.</a>
+                        </p>
+
+                    </div>
+                    
+                    <div class="project-img">
+                        <img src="css/images/synata-main.png" alt="livecareer-image" style="width:100%;height:auto">
+                    </div>
+
+            </section>
+
+                   <!-- TOMS
+            <section id="work">
+                    <div class="project-tile">
+                        <img class="logo-img" src="css/images/toms-logo.svg" alt="TOMS-logo">
+                        <p class="caption">I started at TOMS as the 3rd full time employee.  The one for one model was a great opportunity to help people in need.  I worked closly with the founder learing everything I could about building a brand.  Constantly working with designers and musicians, I realized I wanted to produce work of my own, so I went back too school earning a degree design.</a>
+                        </p>
+
+                    </div>
+                    
+                    <div class="project-img">
+                        <img src="css/images/toms.jpg" alt="livecareer-image" style="width:100%;height:auto">
+                    </div>
+
+            </section>-->
+            
+        </div>
+    
+    </body>
+</html>
