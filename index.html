@@ -1,10 +1,11 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="Zak Ferris Portfolio Site" content="$1">
+        <meta name="Zak Ferris Portfolio Site">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>ZF</title>
         <link rel="stylesheet" href="css/style.css">
+
         
         <!-- FONTS -->
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,700,300' rel='stylesheet' type='text/css'>
@@ -13,13 +14,25 @@
 
         <!-- JQUERY -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      
+
+
 
         <script>
        
         $( document ).ready(function() {  
             
-            // ARROW HOVER
+            // FADE IN                
+                $('#logo-tagline,#logo,h1,#scroll-btn').hide()
+                $('#logo-tagline').delay(1000).fadeIn(1500,"swing")
+                $('#logo').delay(2000).fadeIn(1500,"swing")
+                $('h1').delay(3000).fadeIn(1500,"swing")
+                $('#scroll-btn').delay(4500).fadeIn(1500,"swing")
+        });
+        $(document).ready(function() {
 
+            // ARROW HOVER
+        
             $("#arrow-img").hover(function(){
             $(".hero-link").addClass('hovered');
             },
@@ -40,13 +53,13 @@
 
         });
 
-        </script
+        </script>
 
     </head>
     
     <body>
         <div id='main-container'>
-            <div id="bg-container">
+            <div id="bg-container" class="bg-img">
                 <section id="hero-container">
                     <p id="logo-tagline">product designer</p>
                     <p id="logo">Zak Ferris</p>
@@ -67,60 +80,91 @@
             <section id="work">  
                     <div class="project-tile">
                         <img class="logo-img" src="css/images/onemed-logo.svg" alt="one-med-log">
-                        <p class="caption">Currently a Senior Interaction Desginer at <a href="http://www.onemedical.com">One Medical</a> helping patients gain access to quatlity health care through their iOS devices.
+                        <p class="caption">I’m currently a Senior Interaction Desginer at <a href="http://www.onemedical.com">One Medical</a> working to help patients gain access to quality healthcare through their iOS devices.
                         </p>
                     </div>
                     
                     <div class="project-img">
                         <img src="css/images/one-med-demo-1.gif
                         " alt="one-med-image" style="width:100%;height:auto">
-                    </div> 
+                         <p class="process">Process Journal Comming Soon</p>
 
+                    </div> 
+                   
             </section>
             <!-- Live Career -->
             <section id="work">
                     <div class="project-tile">
                         <img class="logo-img" src="css/images/livecareer.svg" alt="livecareer-logo">
-                        <p class="caption">I started at <a href="http://www.LiveCareer.com">Live Career</a>  to help people build their resumes online.  As my role grew, I begain managing the entire user expirence team and successfully launched <a href="http://www.jobtap.com">Jobtab</a>, <a href="http://www.resumehelp.com">Resume Gig</a>, <a href="http://www.myperfectcoverletter.com">My Perfect Cover letter</a>.
+                        <p class="caption"><a href="http://www.LiveCareer.com">Live Career</a>  started as an opportunity to help people build their resumes. My role at LiveCareer grew quickly. I began managing LiveCareer’s user experience team and integrating a design process throughout the organization.   During my time there I was able to lead the UX team to successfully launch <a href="http://www.jobtap.com">Jobtab</a>, <a href="http://www.resumehelp.com">Resume Gig</a>, <a href="http://www.myperfectcoverletter.com">My Perfect Cover letter</a>.
                         </p>
 
                     </div>
                     
                     <div class="project-img">
-                        <img src="css/images/lc-main-imgb.png" alt="livecareer-image" style="width:100%;height:auto">
+                        <img src="css/images/lc-main-img.png" alt="livecareer-image" style="width:100%;height:auto">
+                        <p class="process">Process Journal Comming Soon</p>
                     </div>
+                   
                 </section>    
 
             <!-- Synata -->
             <section id="work">
                     <div class="project-tile">
                         <img class="logo-img" src="css/images/synata.svg" alt="synata-logo">
-                        <p class="caption">I joined <a href="http://www.synata.com">Synata</a> to help enterprise companies, search their cloud software.  I designed the intial mobile app and website, to help synata win the <a href="http://events.launch.co/festival/">Launch Confrence</a> best B2B application award.  Synata was then invited into the <a href="http://www.hf.cx">Hackers/Founders incubator.</a>
+                        <p class="caption">My time at <a href="http://www.synata.com"> Synata </a>was spent making cloud search easier for enterprise companies. I designed the initial mobile app and website, helping Synata win the <a href="http://events.launch.co/festival/">Launch Confrence</a> best B2B application award.  Synata was then invited into the <a href="http://www.hf.cx">Hackers/Founders incubator.</a>
                         </p>
 
                     </div>
                     
                     <div class="project-img">
                         <img src="css/images/synata-main.png" alt="livecareer-image" style="width:100%;height:auto">
+                        <p class="process">Process Journal Comming Soon</p>
                     </div>
+
 
             </section>
+            <footer>
+                <section id="footer-container">
+                    <article class="footer-column">
+                        <h3>Contact</h3>
+                        <a href="mailto:zakferris@gmail.com.com?Subject=Website%20Contact" target="_top">Zak@ZakFerris.com
+                        </a>
 
-                   <!-- TOMS
-            <section id="work">
-                    <div class="project-tile">
-                        <img class="logo-img" src="css/images/toms-logo.svg" alt="TOMS-logo">
-                        <p class="caption">I started at TOMS as the 3rd full time employee.  The one for one model was a great opportunity to help people in need.  I worked closly with the founder learing everything I could about building a brand.  Constantly working with designers and musicians, I realized I wanted to produce work of my own, so I went back too school earning a degree design.</a>
+                        <p class='p-footer'>
+                        (949) 280 6596
                         </p>
 
-                    </div>
-                    
-                    <div class="project-img">
-                        <img src="css/images/toms.jpg" alt="livecareer-image" style="width:100%;height:auto">
-                    </div>
+                        <a href="ZakFerrisResume.pdf"> Download Resume
+                        </a>
 
-            </section>-->
-            
+                    </article>
+
+                    <article class="footer-column">
+                        <h3>Social</h3>
+                        <a href="http://www.linkedin.com/in/ZakFerris">LinkedIn.com/ZakFerris</a>
+
+                        <a href="https://twitter.com/zakferris">Twitter.com/ZakFerris</a>
+
+                        <a href="http://www.Rdio.com/zakferris">Rdio.com/ZakFerris</a>
+
+                        <a href="http://www.instagram.com/Zunitdalegend">Instagram.com/zakferris</a>
+
+                    </article>
+
+                      <article class="footer-column">
+                        <h3>Recent Work</h3>
+                        <a href="https://dribbble.com/ZakFerris">Dribbble.com/ZakFerris</a>
+
+                        <a href="https://vimeo.com/zakferris">Vimeo.com/ZakFerris</a>
+
+                        <a href="http://www.old.zakferris.com">My old site with more work</a>
+
+                    </article>                       
+
+                </section>
+            </footer>    
+       
         </div>
     
     </body>
